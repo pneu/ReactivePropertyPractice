@@ -8,7 +8,7 @@
         Title="MainWindow" Height="350" Width="525">
     <StackPanel>
         <Button Content="AAA"/>
-        <TextBox Text="{Binding ViewModel.Name.Value, Mode=TwoWay}"/>
-        <TextBlock Text="{Binding ViewModel.Name.Value, Mode=OneWay}"/>
+        <TextBox Text="{Binding Name.Value, Mode=TwoWay}"/>
+        <TextBlock Text="{Binding Name.Value, Mode=OneWay}"/>
     </StackPanel>
 </Window>

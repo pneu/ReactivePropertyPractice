@@ -24,6 +24,7 @@ namespace ReactivePropertyPractice
 
         public MainWindow() {
             InitializeComponent();
+            DataContext = ViewModel;
         }
     }
 }
